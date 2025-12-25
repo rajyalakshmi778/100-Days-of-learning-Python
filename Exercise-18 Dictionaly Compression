@@ -1,0 +1,4 @@
+sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+new_list = sentence.split()
+result = {new_word:len(new_word) for new_word in new_list }
+print(result)
